@@ -7,6 +7,13 @@ The synth's architecture is modeled roughly after a Roland SH101.
 
 Also included is an html page which serves as a controller for the synth -- auto-populating the necessary knobs for midi cc controls. You can pass MIDI through an IAC driver, or use the html keyboard / sequencer.
 
+![HTML Controller](htmlController.png)
+*HTML controller will automatically load params from the pico upon connection*
+
+
+
+
+
 ## Hardware Requirements
 - Raspberry Pi Pico 2 W (RP2350) or Pico (RP2040)
 - I2S DAC connected to pins 19-21
@@ -17,7 +24,3 @@ Also included is an html page which serves as a controller for the synth -- auto
 <img src="picoSetup.png" width="250"> 
 
 *The pico connected to the PCM5102A -- seen here setup with a second pico acting as a debugger.*
-![HTML Controller](htmlController.png)
-*HTML controller will automatically load params from the pico upon connection*
-
-
